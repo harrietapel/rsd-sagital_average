@@ -1,5 +1,6 @@
 from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
 import numpy as np
+from sagital_brain import run_averages
 
 parser = ArgumentParser(description="Calculates the average for each sagital-horizontal plane.",
                             formatter_class=ArgumentDefaultsHelpFormatter)

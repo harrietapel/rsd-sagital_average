@@ -7,5 +7,6 @@ setup(
     entry_points={
         'console_scripts': [
             'average = sagital_average.command:process'
-        ]}
+        ]},
+    install_requires=['numpy', 'argparse']
 )
